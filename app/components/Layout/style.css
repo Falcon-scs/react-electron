@@ -1,0 +1,37 @@
+.ant-layout {
+    height: 100%;
+}
+
+.optimumMenu {
+    background: #191919 !important;
+}
+
+.anticon {
+    padding: 0 0 0 20px;
+}
+
+.logo {
+    background: url(../../../server/public/assets/img/logo.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 9px;
+    display: block;
+    height: 60px;
+    margin-top: 5px;
+    background-color: #191919;
+    transition: all 0.5s ease-in-out;
+}
+
+.logoCollapsed {
+    background-position: -2px;
+    background: url(../../../server/public/assets/img/logo.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 60px;
+    margin-top: 5px;
+    background-color: #191919;
+    transition: all 0.5s ease-in-out;
+}

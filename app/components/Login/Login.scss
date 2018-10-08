@@ -1,0 +1,42 @@
+.page-login {
+  background: url(../../../internals/img/login-bg.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .login-container {
+    position: absolute !important;
+    width: 100%;
+    bottom: 20px;
+    width: 100%;
+  
+    h3 { 
+      color: #fff;
+      margin: 10px;
+      font-size: 18px;
+    }
+  }
+}
+
+html[dir="rtl"]{
+  body {
+    text-align: right;
+  }
+  .page-login {
+    .login-container {
+      right: 10px;
+    }
+  }
+}
+
+html[dir="ltr"]{
+  body {
+    text-align: left;
+  }
+  .page-login {
+    .login-container {
+      left: 10px;
+    }
+  }
+}

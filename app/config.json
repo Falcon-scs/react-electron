@@ -1,0 +1,1 @@
+{"server":{"ws":"wss://localhost:443","http":"https://localhost/api/v1/","reconnectIn":15},"datastore":{"settings":"datastores/settings", "authentication": "datastores/authentication"},"locale":"en"}
